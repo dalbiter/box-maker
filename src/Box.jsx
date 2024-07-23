@@ -1,10 +1,10 @@
 import React from 'react';
 
-const Box = () => {
+const Box = ({ width, height, color }) => {
     return (
-        <div>
-            I am a box!
-        </div>
+            <div style={{width: width, height: height, backgroundColor: color}}>
+            </div>
+        
     )
 };
 
