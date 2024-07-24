@@ -4,7 +4,6 @@ const Box = ({ width, height, color, idx, removeBox }) => {
 
     const handleClick = (e) => {
         const boxId = e.target.id;
-        console.log(boxId)
         removeBox(boxId)   
     }
     return (

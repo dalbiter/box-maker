@@ -9,8 +9,7 @@ const BoxList = () => {
         setBoxes(boxes => [...boxes, {...newBox, id: uuidv4()}]);
     }
     const removeBox = (idx) => {
-        setBoxes(boxes.splice(idx, 1))
-        console.log(`I am in BoxList and the box you clicked is ${idx}`)
+        setBoxes(boxes.filter((box, i) => i != idx))
     }
     
     return (
