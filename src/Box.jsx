@@ -1,9 +1,18 @@
 import React from 'react';
 
 const Box = ({ width, height, color }) => {
+
+    const handleClick = (e) => {
+        console.log(e.target.id)
+    }
     return (
-            <div style={{width: width, height: height, backgroundColor: color}}>
+        <div>
+            <br />
+            <div style={{width: `${width}px`, height: `${height}px`, backgroundColor: color}}>
+                <button onClick={handleClick} id={0}>X</button>
             </div>
+        </div>
+            
         
     )
 };
