@@ -12,3 +12,4 @@ describe('NewBoxForm', () => {
         expect(asFragment()).toMatchSnapshot()
     })
 });
+

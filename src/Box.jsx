@@ -9,8 +9,8 @@ const Box = ({ width, height, color, idx, removeBox }) => {
     return (
         <div>
             <br />
-            <div style={{width: `${width}px`, height: `${height}px`, backgroundColor: color}}>
-                <button onClick={handleClick} id={idx}>X</button>
+            <div className="Box" style={{width: `${width}px`, height: `${height}px`, backgroundColor: color}}>
+                <button className="Box-remove-button" onClick={handleClick} id={idx}>X</button>
             </div>
         </div>
             

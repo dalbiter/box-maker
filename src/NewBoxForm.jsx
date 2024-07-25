@@ -21,7 +21,7 @@ const NewBoxForm = ({ addBox }) => {
     }
 
     return (
-        <form onSubmit={handleSubmit}>
+        <form className="NewBoxForm" onSubmit={handleSubmit}>
             <label htmlFor="width">Width: </label>
             <input type="text"
                    id="width"
