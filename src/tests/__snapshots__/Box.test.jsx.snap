@@ -4,8 +4,12 @@ exports[`Box > should match snapshot 1`] = `
 <DocumentFragment>
   <div>
     <br />
-    <div>
-      <button>
+    <div
+      class="Box"
+    >
+      <button
+        class="Box-remove-button"
+      >
         X
       </button>
     </div>

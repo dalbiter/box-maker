@@ -2,8 +2,12 @@
 
 exports[`App > should match snapshot 1`] = `
 <DocumentFragment>
-  <div>
-    <form>
+  <div
+    class="BoxList"
+  >
+    <form
+      class="NewBoxForm"
+    >
       <label
         for="width"
       >
