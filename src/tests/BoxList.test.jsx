@@ -33,7 +33,7 @@ describe('BoxList', () => {
         const removeButton = boxList.getByText('X');
         expect(removeButton).toBeInTheDocument();
         // expect there to be a box
-        expect(removeButton.closest("div")).toHaveClass("Box")
+        expect(removeButton.parentElement).toHaveClass("Box")
         //form should have 3 empty inputs
         expect(boxList.getAllByDisplayValue("")).toHaveLength(3);     
     });
